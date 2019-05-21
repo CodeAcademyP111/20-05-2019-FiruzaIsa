@@ -1,0 +1,48 @@
+.container{
+    margin: 0 auto;
+    height: 500px;
+    box-sizing: border-box; 
+position: relative;
+
+}
+
+
+ul li{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #e8e8e8;
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+     cursor: pointer;
+
+}
+
+ul li:hover{
+    background-color: #cccccc;
+}
+
+
+span .text{
+    background-color: white;
+     display:none;
+}
+
+span .text:hover{
+    display: block;
+}
+ul li h4{
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    display: block;
+}
+
+.fas{
+
+    padding: 0 5px;
+    height: 25px;
+}
+ .active{
+     display: block;
+ };
